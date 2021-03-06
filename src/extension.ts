@@ -63,6 +63,7 @@ export function activate(context: vscode.ExtensionContext) {
 				const type = await vscode.window.showQuickPick(
 					[
 						"class",
+                        "final class",
 						"interface",
 						"trait"
 					],
